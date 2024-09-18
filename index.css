@@ -40,6 +40,8 @@ body {
   
   h2 {
     color: #333;
+    font-weight: 800;
+
   }
   
   ul {
@@ -85,4 +87,18 @@ body {
 .card h3{
     font: 2.2em sans-serif;
     font-weight: 700;
+}
+
+#about h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+#skills img,#contact img{
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+}
+#contact ul li{
+    display: flex;
+    flex-direction: row;
 }

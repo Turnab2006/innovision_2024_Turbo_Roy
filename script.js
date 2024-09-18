@@ -5,13 +5,13 @@ const projects = [
     {
       name: "Project 1",
       description: "This is a project about web development.",
-      link: "https://github.com/yourgithubusername/project1",
+      link: "https://github.com/Turnab2006/innovision_2024_Turbo_Roy",
       img_link:"./images/java.jpg"
     },
     {
       name: "Project 2",
       description: "This is a project about data analysis.",
-      link: "https://github.com/yourgithubusername/project2",
+      link: "https://github.com/Turnab2006/Tempest",
       img_link:"./images/in.png"
     },
     {
