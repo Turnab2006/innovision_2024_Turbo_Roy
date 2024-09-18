@@ -5,17 +5,21 @@ const projects = [
     {
       name: "Project 1",
       description: "This is a project about web development.",
-      link: "https://github.com/yourgithubusername/project1"
+      link: "https://github.com/yourgithubusername/project1",
+      img_link:"./images/java.jpg"
     },
     {
       name: "Project 2",
       description: "This is a project about data analysis.",
-      link: "https://github.com/yourgithubusername/project2"
+      link: "https://github.com/yourgithubusername/project2",
+      img_link:"./images/in.png"
     },
     {
       name: "Project 3",
       description: "This is a project about machine learning.",
-      link: "https://github.com/yourgithubusername/project3"
+      
+     link: "https://github.com/yourgithubusername/project3",
+     img_link:"./images/c.jpg"
     }
   ];
   
@@ -27,9 +31,13 @@ const projects = [
     projectItem.classList.add("project-item");
   
     projectItem.innerHTML = `
+    <div class="card">
       <h3>${project.name}</h3>
       <p>${project.description}</p>
       <a href="${project.link}" target="_blank">View Project</a>
+        <img src="${project.img_link}" ></img>
+    </div>
+
     `;
   
     projectGallery.appendChild(projectItem);
